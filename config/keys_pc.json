@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "layout_name": "DFJK",
+  "lanes": [
+    "d",
+    "f",
+    "j",
+    "k"
+  ],
+  "menu": {
+    "up": "up",
+    "down": "down",
+    "left": "left",
+    "right": "right",
+    "confirm": "enter",
+    "back": "escape"
+  },
+  "gameplay": {
+    "pause": "escape",
+    "restart": "r"
+  },
+  "timing": {
+    "hit_window_ms": {
+      "perfect": 50,
+      "good": 100,
+      "bad": 150
+    },
+    "approach_rate": {
+      "easy": 3,
+      "normal": 5,
+      "hard": 7
+    }
+  }
+}
