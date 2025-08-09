@@ -201,4 +201,4 @@ def run_game(screen, song_id: str, difficulty: str, player_name: str = "Player")
 def _results_screen(screen, res):
     clock = pygame.time.Clock()
     font = pygame.font.SysFont("arial", 28)
-    small = pygame.font.
+    small = pygame.font.SysFont("arial", 20)
